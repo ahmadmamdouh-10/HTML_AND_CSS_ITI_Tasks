@@ -1,0 +1,159 @@
+<html>
+
+
+<head>
+<title>  Registration  </title>
+<link /> <!--css -->
+<meta charset="utf-8" />  <!-- to accept arabic --> 
+<meta name="description" content="this website is Registration site ......"/>
+<meta name="keywords" content="Registration"/>
+</head>
+<body style="background-color:burlywood";>
+
+    <form action="lab2.html" method="GET">
+        <input type="hidden" id="uID" name="uID" value="1">
+
+        <div>
+            <label for="uFName">First Name:</label>
+            <input type="text" name="First Name" id="uFName" value="" placeholder="Write your First Name" required autocomplete="off" pattern="[A-Za-z]{3,}" title="You must enter 3 letters or more">
+            <small>*required</small>
+        </div>
+
+        <br>
+        <br>
+
+        <div>
+            <label for="uLName">Last Name:</label>
+            <input type="text" name="Last Name" id="uLName" value="" placeholder="Write your Last Name" required autocomplete="off" pattern="[A-Za-z]{3,}" title="You must enter 3 letters or more">
+            <small>*required</small>
+        </div>
+
+        <br>
+        <br>
+
+        <div>
+            <label for="uEmail">Email</label>
+            <input type="email" name="Email" id="uEmail">
+        </div>
+
+        <br>
+        <br>
+
+        <div>
+            <label for="uPWD">Password</label>
+            <input type="password" name="pwd" id="uPWD">
+        </div>
+
+        <br>
+        <br>
+
+        <div>
+            <label for="uPWD"> Repeat Password</label>
+            <input type="password" name="pwd" id="uPWD">
+        </div>
+
+        <br>
+        <br>
+
+        <div>
+            <label for="bDate">Birth Date:</label>
+            <input type="date" name="bDate" id="bDate" tabindex="2">
+        </div>
+
+        <br>
+        <br>
+
+        <div>
+            <label for="pic">Choose Picture</label>
+            <input type="file" id="pic" name="pic">
+        </div>
+
+        <br>
+        <br>
+
+        <div>
+            Gender:
+            <input type="radio" id="male" name="gender" value="m" checked tabindex="3">
+            <label for="male">Male</label>
+
+            <input type="radio" id="female" name="gender" value="f">
+            <label for="female">female</label>
+        </div>
+
+        <br>
+        <br>
+
+        <div>
+            <label for="fac">Faculty</label>
+            <select name="fac" id="fac">
+                <option selected hidden >Faculties</option>
+				<option value="1">FCI</option>
+				<option value="2">Engineering</option>
+				<option value="3">Commerce</option>
+			</select>
+        </div>
+
+        <br>
+        <br>
+
+        <fieldset>
+            <legend>Your Interests:</legend>
+            <input type="checkbox" name="programming" id="prog" value="c1">
+            <label for="prog">Programming</label>
+
+            <input type="checkbox" name="reading" id="reading" value="c2">
+            <label for="reading">reading</label>
+
+            <input type="checkbox" name="swimming" id="swimming" value="c3">
+            <label for="swimming">swimming</label>
+        </fieldset>
+
+        <br>
+        <br>
+
+        <div>
+            <label for="objective">About You:</label>
+            <textarea id="objective" name="objective" rows="3" cols="40">
+
+			</textarea>
+        </div>
+
+        <br>
+        <br>
+
+        <div>
+            <input type="radio" id="terms" name="terms">
+            <label for="terms">I agreed to terms and condition</label>
+        </div>
+
+        <br>
+        <br>
+
+        <input type="submit" value="OK">
+        <input type="reset" value="cancel">
+
+    </form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

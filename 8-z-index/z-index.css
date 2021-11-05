@@ -1,0 +1,36 @@
+#header {
+    position: fixed;
+    z-index: 1;
+    border-radius: 5px;
+    background-color: #c2d6d6;
+    padding: 20px;
+    height: 130px;
+    width: 800px;
+}
+.left {
+    float: left;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #b8b894;
+    height: 300px;
+    width: 200px;
+}
+    
+.right {
+    z-index: 3;
+    float: right;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #ffbf80;
+    height: 300px;
+    width: 600px;
+    
+}
+
+#footer {
+    clear: both;
+    border-radius: 5px;
+    background-color: #c2d6d6;
+    height: 100px;
+    width: 800px;
+    }

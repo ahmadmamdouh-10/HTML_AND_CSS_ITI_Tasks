@@ -1,0 +1,144 @@
+<html>
+
+
+<head>
+<title>  Registration Form  </title>
+<link /> <!--css -->
+<meta charset="utf-8" />  <!-- to accept arabic --> 
+<meta name="description" content="this website is Registration site ......"/>
+<meta name="keywords" content="Registration"/>
+<link rel="stylesheet" href="lab3-3CSS.css">
+</head>
+<body>
+  <form action="lab3-3.html" method="GET">
+
+    <div class="wrapper">
+        <div class="title">
+          Registration Form
+        </div>
+        <div class="form">
+           <div class="inputfield" >
+              <label>First Name  <small> *required</small> </label>
+              <input type="text" class="input" placeholder="Ex: Ahmed " pattern="[A-Za-z]{3,}" title="You must enter 3 letters or more">
+           </div>  
+            <div class="inputfield" >
+              <label>Last Name <small> *required</small></label> 
+              <input type="text" class="input" placeholder="Ex: Mamdouh ">
+           </div> 
+           <div class="inputfield" >
+            <label>Email Address <small> *required</small></label>
+            <input type="text" class="input" placeholder="Ex: Ahmed@gmail.com ">
+         </div>  
+           <div class="inputfield" >
+              <label>Password <small> *required</small></label>
+              <input type="password" class="input" placeholder="Ex: P@ssw0rd">
+           </div>  
+          <div class="inputfield" >
+              <label>Confirm Password <small> *required</small></label>
+              <input type="password" class="input" placeholder="Same as before">
+           </div> 
+            <div class="inputfield">
+              <label>Gender</label>
+              <div class="custom_select">
+                <select>
+                  <option value="" hidden>Select</option>
+                  <option value="male">Male</option>
+                  <option value="female">Female</option>
+                </select>
+              </div>
+           </div> 
+        
+          <div class="inputfield" placeholder="11 Numbers">
+              <label>Phone Number</label>
+              <input type="text" class="input">
+           </div> 
+          <div class="inputfield" >
+              <label>Address</label>
+              <textarea class="textarea" placeholder="Ex: El-Haram, Giza,Egypt. "></textarea>
+           </div> <br>
+
+           <fieldset >
+            <legend>Your Interests:</legend>
+            <input type="checkbox" name="programming" id="prog" value="c1">
+            <label for="prog">Programming.</label><br>
+
+
+            <input type="checkbox" name="reading" id="reading" value="c2">
+            <label for="reading">reading.</label><br>
+
+
+            <input type="checkbox" name="swimming" id="swimming" value="c3">
+            <label for="swimming">swimming.</label><br>
+
+
+            <input type="checkbox" name="football" id="football" value="c4">
+            <label for="swimming">Playing Football</label><br>
+
+
+            <input type="checkbox" name="Games" id="games" value="c5">
+            <label for="swimming">Playing Online Games</label><br>
+
+        </fieldset><br>
+
+        <div class="inputfield">
+          <label>Faculty</label>
+          <div class="custom_select">
+            <select>
+              <option value="" hidden>Select</option>
+              <option value="lang">Alsun</option>
+              <option value="cs">Computer Science</option>
+              <option value="arts">Arts</option>
+              <option value="finearts">Fine Arts</option>
+              <option value="Agriculture">Agriculture</option>
+
+            </select>
+          </div>
+       </div> <br>
+
+       <div class="inputfield">
+        <label for="pic">Choose Picture</label>
+        <input type="file" id="pic" name="pic">
+    </div> <br>
+
+    <div class="inputfield">
+      <label for="bDate">Birth Date:</label>
+      <input type="date" name="bDate" id="bDate" tabindex="2">
+  </div><br>
+
+  <div class="inputfield">
+    <label>Other</label>
+    <textarea class="textarea" placeholder="Tell Me Anything You Want Me to Know.. "></textarea>
+ </div> <br>
+   
+          <div class="inputfield terms">
+              <label class="check">
+                <input type="checkbox">
+                <span class="checkmark"></span>
+              </label>
+              <p>Agreed to terms and conditions <small> *required</small></p>
+           </div> 
+          <div class="inputfield">
+            <input type="submit" value="Send" class="btn">
+          </div>
+          <div class="inputfield">
+            <input type="reset" value="Start New Registration" class="btn">
+          </div>
+        </div>
+    </div>
+  </form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

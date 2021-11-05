@@ -1,0 +1,115 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	background: url(pic3.jpeg);
+	background-size: cover;
+	font-family: sans-serif;
+	z-index: 0;
+
+}
+
+.title{
+	text-align: center;
+	padding: 50px 0 20px;
+}
+
+.title h1{
+	margin: 0;
+	padding: 0;
+	color:slategray;
+	text-transform: uppercase;
+	font-size: 36px;
+
+}
+
+.container{
+	width: 50%;
+	height: 400px;
+	background: #fff;
+	margin: 0 auto;
+	border: 2px solid #fff;
+	box-shadow: 0 15px 40px rgba(0,0,0,.5);
+	z-index: 0;
+}
+
+.container .left{
+	float: left;
+	width: 50%;
+	height: 400px;
+	background: url(pic3.jpeg);
+	background-size: cover;
+	box-sizing: border-box;
+	z-index: 1;
+}
+
+.container .right{
+	float: right;
+	width: 50%;
+	height: 400px;
+	box-sizing: border-box;
+	z-index: 3;
+	border: 1px dashed firebrick;
+}
+
+.formBox{
+	width: 100%;
+	padding: 50px 40px;
+	box-sizing: border-box;
+	height: 400px;
+	background:#fff;
+}
+
+.formBox p{
+	margin: 0;
+	padding:0;
+	font-weight: bold;
+	color: #cc2c9c;
+}
+
+.formBox input{
+	width: 100%;
+	margin-bottom: 20px;
+	
+}
+
+.formBox input[type="text"],
+.formBox input[type="password"],
+.formBox input[type="email"]
+
+{
+	border: none;
+	border-bottom: 2px solid #cc2c9c;
+	outline: none;
+	height: 20px;
+}
+
+.formBox input[type="text"]:focus,
+.formBox input[type="password"]:focus,
+.formBox input[type="email"]:focus
+{
+	border-bottom: 2px solid #262626;
+	background:fuchsia;
+}
+
+.formBox input[type="submit"]:hover{
+	box-shadow: 0px 8px 16px white ;
+	background-color: grey;
+	
+}
+
+.formBox input[type="submit"]{
+  position: relative;
+  background-color: fuchsia;
+  color: #FFFFFF;
+  text-align: center;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
+  border: none;
+  font-weight: bold;
+  width: 50%;
+  border-radius: 10%;
+  min-height: 40px;
+}
+

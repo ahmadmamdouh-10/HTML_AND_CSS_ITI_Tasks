@@ -1,0 +1,66 @@
+p,div,span{
+    font-family:'Dancing Script', cursive;
+}
+
+h1{
+    text-align: center;
+}
+
+.nonbulletlist{
+    list-style-type: none;
+}
+
+.nonbulletlist a{
+    text-decoration:none;
+}
+
+li>a{
+    color: red;
+}
+
+li>a:hover{
+    color:pink;
+    text-decoration: none;
+    background-color:red;
+}
+
+h2+p{
+    font-weight: bold;
+    font-size: 12px;
+}
+
+#loginform{
+    border: dashed 2px rgba(20,70,60)
+}
+
+input[type="text"]{
+    background-color:yellow;
+}
+
+input[type="text"]::after {
+    content: "*required";
+}
+
+input[type="text"]:focus{
+    background-color:white;
+}
+
+.tabled-bordered{
+    display: table-cell;
+    padding: 5px;
+    border: solid;
+}
+
+span>p::after{
+    content: " ~Remember That ";
+    background-color:yellow;
+}
+
+span #titles span{
+    background-color:orange;
+}
+
+span div span{
+    color:red;
+    font-size: small;
+}
